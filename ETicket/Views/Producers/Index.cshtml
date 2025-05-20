@@ -24,7 +24,8 @@
                 {
                 <tr>
                     <td class="align-middle">
-                        <img class="rounded-circle" src="@item.ProfilePictureURL" alt="@item.FullName" style="max-width: 150px" />
+                            <img class="rounded-circle" src="@item.ProfilePictureURL" alt="@item.FullName" style="width: 150px; height: 150px; object-fit: cover;" />
+
                     </td>
                     <td class="align-middle">
                         @Html.DisplayFor(modelItem => item.FullName)
